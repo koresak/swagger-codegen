@@ -33,8 +33,9 @@ import static io.swagger.codegen.languages.helpers.ExtensionHelper.getBooleanVal
 /**
  * Swift (2.x) generator is no longer actively maintained. Please use 
  * 'swift3' or 'swift4' generator instead.
+  * @deprecated Swift 2 version is not supported anymore.
  */
-
+@Deprecated
 public class SwiftCodegen extends DefaultCodegen implements CodegenConfig {
     public static final String PROJECT_NAME = "projectName";
     public static final String RESPONSE_AS = "responseAs";
